@@ -1,0 +1,30 @@
+{
+  "features": {
+    "categorySelection": true,
+    "watermark": false,
+    "aiBadge": true,
+    "batchProcessing": false,
+    "history": false,
+    "onboarding": false,
+    "analytics": true
+  },
+  "limits": {
+    "maxPhotosPerSession": 5,
+    "maxImageSizePixels": 3072,
+    "exportMaxSizePixels": 1536,
+    "exportQuality": 90,
+    "processingTimeoutSeconds": 60
+  },
+  "api": {
+    "useProxy": true,
+    "proxyUrl": "https://api.example.com",
+    "falEndpoint": "https://fal.run/gemini-image-edit",
+    "tokenRefreshMinutes": 25
+  },
+  "ui": {
+    "showProcessingTime": true,
+    "showFileSize": true,
+    "enableHapticFeedback": true,
+    "defaultCategory": "general"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "base",
+  "category": "general",
+  "prompt": "Goal: make this product photo listing-ready without deception.\n• Preserve product geometry, textures, brand markings.\n• Replace background with a neutral light gray (studio sweep).\n• Correct lighting/white balance; reduce glare; keep true color.\n• Remove objects not part of the product (hands, clutter, cables).\n• Add a soft, physically plausible contact shadow.\n• Do NOT invent accessories or change the product's shape.",
+  "description": "Default prompt for general product photography enhancement"
+}
